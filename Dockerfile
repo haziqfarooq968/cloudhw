@@ -7,5 +7,5 @@ RUN npm install
 
 #ENTRYPOINT ["npm", "start"]
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
 
