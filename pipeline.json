@@ -13,10 +13,10 @@
   },
   "archive": {
     "registry": "docker.io",
-    "repository": "haziq123farooq/sample-node4"
+    "repository": "haziq123farooq/sample-node5"
   },
   "deploy": {
-    "containerPort": 5000
+    "containerPort": 8080
   }
 }
 
