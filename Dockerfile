@@ -6,6 +6,6 @@ RUN npm install
 #RUN npm start
 
 #ENTRYPOINT ["npm", "start"]
-#EXPOSE 8080
+EXPOSE 8080
 CMD [ "node", "index.js" ]
 
