@@ -5,5 +5,5 @@ COPY . .
 RUN npm install
 #RUN npm start
 
-ENTRYPOINT ["npm", "start"]
+#ENTRYPOINT ["npm", "start"]
 
