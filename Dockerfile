@@ -1,9 +1,9 @@
 FROM node:9 
 
 WORKDIR /app
-COPY . .
+COPY cloudhw cloudhw
 RUN npm install
-RUN npm start
+#RUN npm start
 
 ENTRYPOINT ["npm", "start"]
 
